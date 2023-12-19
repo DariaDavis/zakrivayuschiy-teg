@@ -69,8 +69,8 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 6px;
-  margin-left: 10px;
+  gap: 0.3em;
+  margin-left: 15px;
 }
 
 .theme-menu__button {
@@ -158,23 +158,24 @@
   align-self: flex-end;
   display: flex;
   flex-direction: row;
+  gap: 0.15em;
 }
 
 .section__save {
   width: fit-content;
-  margin: 54px auto 0 auto;
+  margin: 50px auto 0 auto;
   color: var(--accent-color);
 }
 
 .button {
   background-color: var(--bg-color);
   border: 2px solid var(--accent-color);
-  padding: 10px 35px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 8px;
+  justify-content: center;
   align-items: center;
+  gap: 0.25em;
   cursor: pointer;
   color: var(--accent-color);
   position: relative;
@@ -191,7 +192,7 @@
 }
 
 .button__img {
-  width: 1.5rem;
+  width: 1.2rem;
   position: relative;
   z-index: 1;
 }
@@ -228,8 +229,13 @@
   transition: color 1s ease;
 }
 
+.card__like-button {
+  width: 126px;
+  height: 40px;
+}
+
 .section__save-button {
-  padding: 9px 17px;
+  padding: 15px 20px;
 }
 
 .like-icon {
