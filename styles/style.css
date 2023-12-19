@@ -165,7 +165,7 @@
 .button {
   background-color: var(--bg-color);
   border: 2px solid var(--accent-color);
-  padding: 9px 17px;
+  padding: 10px 35px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -191,7 +191,7 @@
   z-index: 1;
 }
 
-.button_text {
+.button__text {
   font-family: var(--accent-font);
   font-size: 14px;
   font-style: normal;
@@ -224,8 +224,8 @@
   transition: color 1s ease;
 }
 
-.button__like {
-  padding: 10px 35px;
+.footer__button {
+  padding: 9px 17px;
 }
 
 .like-icon {
@@ -236,5 +236,9 @@
 @media (width <=375px) {
   .content__block {
     width: 100%;
+  }
+
+  .footer__button {    
+    flex-direction: column;
   }
 }
