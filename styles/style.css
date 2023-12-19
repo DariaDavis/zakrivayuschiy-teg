@@ -238,7 +238,7 @@
     width: 100%;
   }
 
-  .footer__button {    
+  .footer__button {
     flex-direction: column;
   }
 }
