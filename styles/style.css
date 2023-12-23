@@ -251,4 +251,10 @@
   .section__save-button {
     flex-direction: column;
   }
+
+  .button__img {
+    width: 1.6rem;
+    position: relative;
+    z-index: 1;
+  }
 }
