@@ -45,8 +45,8 @@
         --normal-font-weight: 465;
         --bold-font-weight: 785;
         --fill-contour-color: #00cc14;
-        --gradient-bg: repeating-linear-gradient(0deg, #00cc14, #00cc14 2px, transparent 2px, transparent 4px),
-            repeating-linear-gradient(90deg, #00cc14, #00cc14 2px, transparent 2px, transparent 4px),
+        --gradient-bg: repeating-linear-gradient(0deg, #000, #000 2px, transparent 2px, transparent 4px),
+            repeating-linear-gradient(90deg, #000, #000 2px, transparent 2px, transparent 4px),
             linear-gradient(#007f0c, #004306);
         --btn-text-color: #00cc14;
     }
